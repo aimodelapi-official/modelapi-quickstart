@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ModelAPI documentation
+    url: https://aimodelapi.ai/docs?utm_source=github&utm_medium=community&utm_campaign=github_developer_acquisition
+    about: Read the API documentation and integration guides.
+  - name: Sales and enterprise capacity
+    url: https://aimodelapi.ai/contact?utm_source=github&utm_medium=community&utm_campaign=github_developer_acquisition
+    about: Contact ModelAPI for production capacity and enterprise requirements.
+
