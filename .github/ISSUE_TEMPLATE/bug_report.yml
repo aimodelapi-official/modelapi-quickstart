@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem in a ModelAPI example
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting a problem. Never include API keys or customer data.
+  - type: input
+    id: example
+    attributes:
+      label: Example or file
+      placeholder: python/quickstart.py
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized error
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and version
+      placeholder: Python 3.12 / Node.js 22
+
